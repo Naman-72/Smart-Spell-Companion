@@ -1,28 +1,41 @@
-ASSIGNMENT 3
-Name       : Naman Anand
-Roll no    : 200101070
-SUBJECT    : CS242
-ASSIGNMENT : 3
-IIT GUWAHATI 2020-24
+# Spell Checker Program
+<H3>Course Project<H3>
+<H6>
+  Name       : Naman Anand
+<br>
+  Roll no    : 200101070
+<br>
+  SUBJECT    : CS242
+<br>
+  ASSIGNMENT : 3 (3RD SEMESTER)
+<br>
+  IIT GUWAHATI 2020-24
+  </H6>
 
-
-
-*******************************************************************************************************************************************************************************
-RUNNING command ->
+<img width="620" alt="image" src="https://user-images.githubusercontent.com/77402137/179352818-9fbd3964-134e-48bf-853c-d2ab0c31e1e6.png">
+<hr>
+  
+  <H1> How To Run 💻 </H1>
 perl 200101070_Assign3.pl
 
-I have considered Dictionary of linux command as Sir told
-I have taken assumption that user Enter Correctly the index as Suggestion Correctly Otherwise it will not work properly
-Approach Using Levenstein distance 
-First Checking in a Dictionary 
-if present then I am not changing
-Otherwise finding The Nearly Nearest word to it 
-and asking user
-For Other Details about Program Please see My comments My code is well commented Explaining Mostly every line
-Also I am providing equal spaced words if the user by mistakes put more than 1 space 
-Like my program Work like this ->
+  <H4>Some Insights Of Project</H4>
+  <ul>
+    <li>
+      I have considered Dictionary of linux command aas per mentioned in our course project.
+      <br>
+      But You Can change Dictionary According To You.
+    </li>
+    <li>
+      <span>Approach Using <strong>Levenstein distance</strong> <span>
+      <br>
+      First Checking in a Dictionary , if present then It will accept it as word and move to next word Otherwise it will find the Nearest word to it 
+      and asks user which word he/she wants or simply ignore the suggestions 
+    </li>
+  </ul>
 
 *****************************************************************************************************************************************************************************
+     EX: 
+<img width="927" alt="image" src="https://user-images.githubusercontent.com/77402137/179353224-f0bcc20a-1fe2-4a8f-ac0c-2fedf0f9f10a.png">
 
 naman@naman-VirtualBox:~/Desktop$ perl 200101070_Assign3.pl 
 Please Enter Your Input : 
@@ -58,4 +71,4 @@ HENCE YOUR MODIFIED/UNMODIFIED INPUT WITH EQUAL SPACES IS :
 naman ls look cp man chmod ls 
 *****************************************************************************************************************************************************************************
 
-Thank You For Visiting My Code
+Thank You For Visiting 
